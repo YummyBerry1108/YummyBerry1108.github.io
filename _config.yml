@@ -4,8 +4,8 @@ description: Welcome!
 theme: jekyll-theme-hacker
 
 navigation:
-  - title: Home
+  - title: 主頁
     url: /
 
-  - title: About
+  - title: 關於我
     url: /about
