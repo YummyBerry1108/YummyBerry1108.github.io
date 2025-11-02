@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: custom_default
 ---
 
 <h1>最新文章</h1>

@@ -1,0 +1,9 @@
+<nav class="custom-sidebar">
+  <ul>
+    {% for item in site.navigation %}
+      <li>
+        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

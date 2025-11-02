@@ -1,0 +1,40 @@
+---
+---
+// 
+// 1. 載入 Hacker 主題的預設 CSS
+// 
+@import "{{ site.theme }}";
+
+// 
+// 2. 以下是我們為 "custom-sidebar" 新增的 CSS 樣式
+// 
+
+/* 側邊欄導覽列的容器 */
+.custom-sidebar {
+  background-color: #282828; /* 類似截圖的深灰色背景 */
+  border-radius: 5px;
+  margin-bottom: 1rem; /* 和下面的 "View on GitHub" 按鈕隔開 */
+}
+
+/* 移除 <ul> (列表) 的預設樣式 (點點和縮排) */
+.custom-sidebar ul {
+  list-style-type: none; /* 移除點點 */
+  margin: 0;
+  padding: 10px; /* 讓按鈕和邊框有點距離 */
+}
+
+/* 側邊欄的連結 <a> */
+.custom-sidebar li a {
+  display: block; /* 讓連結變成區塊，佔滿整行，方便點擊 */
+  padding: 12px 15px;
+  color: #e0e0e0; /* 亮的文字顏色 */
+  text-decoration: none; /* 移除底線 */
+  border-radius: 4px; /* 圓角 */
+  font-weight: bold;
+}
+
+/* 滑鼠移上去時的 Highligh 效果 */
+.custom-sidebar li a:hover {
+  background-color: #444;
+  color: #fff;
+}
