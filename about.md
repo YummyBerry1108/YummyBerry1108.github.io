@@ -3,8 +3,12 @@ layout: custom_default
 title: "About Me"
 ---
 
-# 關於我 (Berry)
+# 關於我
 
-18歲，中央資工大一學生
+哈囉，我是 Berry
+
+18歲，目前就讀於中央資工
+
+過得很幸福 ouo
 
 
