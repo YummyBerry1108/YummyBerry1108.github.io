@@ -1,5 +1,5 @@
 ---
-layout: custom_default
+layout: custom_post
 title: "Jekyll + Github Page 網站架設成功!"
 date: 2025-11-02
 author: "Berry"
