@@ -1,0 +1,10 @@
+title: Berry's Blog
+description: Welcome!
+theme: jekyll-theme-hacker
+
+navigation:
+  - title: Home
+    url: /
+
+  - title: About
+    url: /about  
