@@ -10,7 +10,14 @@
 // 
 
 /* 側邊欄導覽列的容器 */
+
+.container {
+  display: flex;
+}
+
 .custom-sidebar {
+  width: 250px; /* 側邊欄寬度 */
+  height: 100vh;
   background-color: #282828; /* 類似截圖的深灰色背景 */
   border-radius: 5px;
   margin-bottom: 1rem; /* 和下面的 "View on GitHub" 按鈕隔開 */
