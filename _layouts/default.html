@@ -17,7 +17,7 @@
 
         <nav class="sidebar-nav">
           {% for item in site.navigation %}
-            <a class_name="page-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            <a class="page-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
           {% endfor %}
         </nav>
         {% if site.github.is_project_page %}
