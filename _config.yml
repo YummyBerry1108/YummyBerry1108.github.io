@@ -1,9 +1,11 @@
 title: Berry's Blog
 description: Welcome!
-url: "https://yummyberry1108.github.io"
-baseurl: ""
-theme: jekyll-theme-chirpy
 
+remote_theme: cotes2020/jekyll-theme-chirpy@v5.6.1 # (你也可以指定版本)
+
+plugins:
+  - jekyll-remote-theme
+  
 navigation:
   - title: Home
     url: /
