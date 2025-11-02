@@ -9,3 +9,6 @@ navigation:
 
   - title: 關於我
     url: /about
+
+  - title: 檔案庫
+    url: /archive
