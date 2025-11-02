@@ -2,7 +2,7 @@ title: Berry's Blog
 description: Welcome!
 url: "https://yummyberry1108.github.io"
 baseurl: ""
-theme: jekyll-theme-hacker
+theme: jekyll-theme-chirpy
 
 navigation:
   - title: Home
