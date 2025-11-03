@@ -2,7 +2,7 @@
 layout: custom_default
 ---
 
-<h1>最新文章</h1>
+<h1>文章列表</h1>
 
 <ul>
   {% for post in site.posts %}

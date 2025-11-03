@@ -8,7 +8,7 @@ tags: [Jekyll, 隨筆]
 
 最近剛好期中考結束，趁有時間的時候趕快把自己心心念念的個人網站架出來。
 
-我實在不想再自己搞一堆 HTML、CSS、Javascript，然後 Github Page 有支援 Jekyll 就試著配合LLM來學習製個新東西。
+我實在不想再自己搞一堆 HTML、CSS、Javascript，然後 Github Page 有支援 Jekyll 就試著配合LLM來學習個新東西。
 
 感謝 Jekyll Theme 直接讓網站好看又能支援 **markdown**
 
