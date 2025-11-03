@@ -26,7 +26,6 @@ footer {
   padding: 20px;
   min-width: 400px;
   overflow-y: auto;
-  // width: auto;
 }
 
 .full-container {
@@ -70,14 +69,18 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  
+  header {
+    border-right: 0;
+    border-bottom: 1px dashed #b5e853;
+  }
 
   .full-container {
       display: block;
   }
 
-  header {
-    border-right: 0;
-    border-bottom: 1px dashed #b5e853;
+  .container {
+    width: auto;
   }
 
 }
