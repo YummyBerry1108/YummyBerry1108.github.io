@@ -12,3 +12,6 @@ navigation:
 
   - title: 檔案庫
     url: /archive
+  
+  - title: 標籤
+    url: /tags
