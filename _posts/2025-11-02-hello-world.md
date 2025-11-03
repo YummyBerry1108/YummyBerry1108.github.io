@@ -2,6 +2,7 @@
 layout: custom_post
 title: "Jekyll + Github Page 網站架設成功!"
 date: 2025-11-02
+update: 2025-11-03
 author: "Berry"
 tags: [Jekyll, 隨筆]
 ---
@@ -18,5 +19,6 @@ tags: [Jekyll, 隨筆]
 未來應該會繼續加功能之類的，反正這個已經比我高中做得好多了
 
 (然後目前手機板網頁是爛掉的，這就是套模板套一半的下場QQ)
+> 2025-11-03: 好欸我修好了
 
 希望之後的自己能繼續在上面寫文章，不要三分鐘熱度 XD
