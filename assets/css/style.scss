@@ -26,6 +26,7 @@ footer {
   padding: 20px;
   min-width: 400px;
   overflow-y: auto;
+  width: auto;
 }
 
 .full-container {
@@ -66,4 +67,17 @@ footer {
 .main-content {
     flex-grow: 1;         /* 關鍵：讓主內容填滿剩餘的寬度 */
     overflow-y: auto;   /* 關鍵：只讓主內容在Y軸上滾動 */
+}
+
+@media screen and (max-width: 768px) {
+
+  .full-container {
+      display: block;
+  }
+
+  header {
+    border-right: 0;
+    border-bottom: 1px dashed #b5e853;
+  }
+
 }
