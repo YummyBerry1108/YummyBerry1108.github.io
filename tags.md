@@ -1,25 +1,13 @@
 ---
-layout: default
+layout: custom_default
 title: "Tags"
 ---
 
-<h1>依標籤分類</h1>
+<h1>標籤</h1>
 
 <div class="tag-list">
 
-  {% comment %}
-    Jekyll 會自動建立一個 'site.tags' 變數。
-    這個變數包含了你所有文章的標籤，並且已經幫你分類好了。
-
-    'site.tags | sort' 會將標籤按照字母順序 (A-Z) 排列。
-  {% endcomment %}
-
   {% for tag in site.tags | sort %}
-
-    {% comment %}
-      'tag[0]' 是標籤的名稱 (例如 "Jekyll" 或 "Guide")
-      'tag[1]' 是包含該標籤的所有文章 (一個陣列)
-    {% endcomment %}
 
     {% assign tag_name = tag[0] %}
     {% assign posts_with_tag = tag[1] %}
