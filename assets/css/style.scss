@@ -3,9 +3,13 @@
 
 @import "{{ site.theme }}";
 
+body {
+  font-size: 18px;
+}
+
 header {
     background: rgba(0, 0, 0, 0.1);
-    border-right: 1px dashed #b5e853;
+    border-right: 1px dashed #8c7ae7;
     border-bottom: 0;
     padding: 0;
     margin: 0;
@@ -16,6 +20,7 @@ header {
 
 header h1 {
     margin-left: 0px;
+    color: #8c7ae7;
 }
 
 footer {
@@ -25,10 +30,16 @@ footer {
   width: auto;
   margin-top: auto;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #8c7ae7;
+}
+
 .container {
   margin-left: 40px;
   padding: 20px;
   min-width: 400px;
+  max-width: unset;
   overflow-y: auto;
 }
 
@@ -46,7 +57,6 @@ footer {
 
 /* 移除 <ul> (列表) 的預設樣式 (點點和縮排) */
 .custom-sidebar ul {
-  list-style-type: none; /* 移除點點 */
   margin: 0;
   padding: 10px; /* 讓按鈕和邊框有點距離 */
 }
@@ -68,8 +78,8 @@ footer {
 }
  
 .main-content {
-    flex-grow: 1;         /* 關鍵：讓主內容填滿剩餘的寬度 */
-    overflow-y: auto;   /* 關鍵：只讓主內容在Y軸上滾動 */
+    flex-grow: 1;         /* 讓主內容填滿剩餘的寬度 */
+    overflow-y: auto;   /* 只讓主內容在Y軸上滾動 */
 }
 
 @media screen and (max-width: 768px) {
@@ -85,14 +95,6 @@ footer {
 
   .container {
     width: auto;
-  }
-
-}
-
-@media (max-width: 1000px) {
-
-  header h1 {
-    margin-left: 0px;
   }
 
 }
