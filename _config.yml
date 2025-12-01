@@ -15,3 +15,6 @@ navigation:
   
   - title: 標籤
     url: /tags
+
+kramdown:
+  math_engine: null
